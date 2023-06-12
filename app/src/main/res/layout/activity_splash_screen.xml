@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:id="@+id/splash_screen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="329dp"
+        android:layout_height="346dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logoapp" />
+
+    <TextView
+        android:id="@+id/txtsplash1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignStart="@+id/logo"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="93dp"
+        android:text="by Abdurrosyid Khulaifi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtsplash2"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtsplash1"
+        android:layout_alignStart="@+id/txtsplash1"
+        android:layout_alignEnd="@+id/txtsplash1"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="29dp"
+        android:text="V 0.0.1 [BETA]"
+        android:textAlignment="center"
+        android:textColor="#858585"
+        android:textSize="5dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
